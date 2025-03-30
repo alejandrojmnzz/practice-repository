@@ -9,6 +9,8 @@ const Post = async ({params}: {params: {slug: string}}) => {
         <div>
             <Link href={"/"}>
             <p>Home</p>
+            <p>test</p>
+    
             </Link>
             <p>{postData.date.toString()}</p>
 
